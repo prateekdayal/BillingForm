@@ -1,0 +1,111 @@
+.BillingForm-container {
+  box-shadow: 0 0 18px 3px rgb(215, 215, 215);
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+label {
+  font-size: 18px;
+}
+
+input,
+select {
+  padding: 10px;
+  outline: none;
+  width: 80%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+h1 {
+  padding: 1rem 2rem 0 2rem;
+}
+
+.customer-name-container {
+  padding: 0 2rem 1rem 2rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+.pro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0rem 2rem 1rem 2rem;
+  border-bottom: 1px solid gray;
+}
+
+select {
+  cursor: pointer;
+  width: 80%;
+
+}
+
+input[type="number"] {
+  width: 70%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: -2.5rem;
+}
+
+.btn>button {
+  background-color: #db3545;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+button,
+input[type="submit"] {
+  font-size: 12px;
+  width: 100px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  margin-top: -1px;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+  gap: 10px;
+}
+
+.submit>button {
+  width: 20%;
+  font-size: 18px;
+  padding: 13px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+}
+.submit>a{
+  width: 20%;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+}
